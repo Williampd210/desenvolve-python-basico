@@ -1,3 +1,8 @@
-idade_juliana = int (input("Qual a idade da Juliana?"))
-idade_cris = int(input("Qual a idade da Cris?"))
-print((idade_juliana > 17) and (idade_cris > 17)) 
+n1 = float(input('Digite o primeiro número decimal:\n'))
+n2 = float(input('Digite o segundo número decimal:\n'))
+
+diferenca = n1 - n2
+positivo = abs(diferenca)
+decimal = round(positivo, 2)
+
+print('A diferença absoluta entre esses dois números é de: \n{}'.format(decimal))
