@@ -1,3 +1,5 @@
-idade_juliana = int (input("Qual a idade da Juliana?"))
-idade_cris = int(input("Qual a idade da Cris?"))
-print((idade_juliana > 17) and (idade_cris > 17)) 
+x = int(input("Digite um número: "))
+if x > 5:
+    print("Maior que 5")
+else:
+    print("Fim")
