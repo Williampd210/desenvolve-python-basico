@@ -1,3 +1,6 @@
-idade_juliana = int (input("Qual a idade da Juliana?"))
-idade_cris = int(input("Qual a idade da Cris?"))
-print((idade_juliana > 17) and (idade_cris > 17)) 
+import random
+numeros = [random.randint(-100, 100) for _ in range(20)]
+print("Lista ordenada, sem modificar a lista original:" ,(sorted(numeros)))
+print("Lista original:" ,(numeros))
+print("O maior indice é: ",(max(numeros)))
+print("O menor indice é: ",(min(numeros)))
